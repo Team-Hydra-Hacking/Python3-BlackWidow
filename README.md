@@ -1,10 +1,8 @@
-![alt tag](https://github.com/1N3/BlackWidow/blob/master/blackwidowlogo.png)
+![alt tag](https://github.com/Team-Hydra-Hacking/Python3-BlackWidow/blob/master/blackwidowlogo.png)
 
 ## ABOUT:
 BlackWidow is a python based web application spider to gather subdomains, URL's, dynamic parameters, email addresses and phone numbers from a target website. This project also includes Inject-X fuzzer to scan dynamic URL's for common OWASP vulnerabilities.
 
-## DEMO VIDEO:
-[![BlackWidow Demo](https://i.ytimg.com/vi/mch8ht47taY/hqdefault.jpg)](https://www.youtube.com/watch?v=mch8ht47taY)
 
 ## FEATURES:
 - [x] Automatically collect all URL's from a target website
@@ -31,11 +29,11 @@ injectx.py -u https://test.com/uers.php?user=1&admin=true -v y - Fuzz all GET pa
 ```
 
 ## SAMPLE REPORT:
-![alt tag](https://github.com/1N3/BlackWidow/blob/master/blackwidow-report1.png)
+![alt tag](https://github.com/Team-Hydra-Hacking/Python3-BlackWidow/blob/master/blackwidow-report1.png)
 
 ## DOCKER:
 ```bash
-git clone https://github.com/1N3/BlackWidow.git
+git clone https://github.com/Team-Hydra-Hacking/Python3-BlackWidow.git
 cd BlackWidow
 docker build -t blackwidow .
 docker run -it blackwidow # Defaults to --help
@@ -52,3 +50,4 @@ This program is used for educational and ethical purposes only. I take no respon
 - [Twitter](https://www.twitter.com/xer0dayz "Personal Twitter")
 - [Twitter](https://www.twitter.com/xerosecurity "Company Twitter")
 - [Website](https://xerosecurity.com "XeroSecurity")
+
